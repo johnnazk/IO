@@ -3,87 +3,101 @@
 
 ## Spis treści
 1. Wstęp
-
-1.1 Cel dokumentu
-
-1.2 Zakres
-
-1.3 Definicje, akronimy i skróty
-
-1.4 Referencje
-
-1.5 Omówienie dokumentu
-
+   
+   1.1 Cel dokumentu
+   
+   1.2 Zakres
+   
+   1.3 Definicje, akronimy i skróty
+   
+   1.4 Referencje
+   
+   1.5 Omówienie dokumentu
+   
 2. Umiejscowienie problemu
-
-2.1 Korzyści biznesowe
-
-2.2 Zdefiniowanie problemu
-
-2.3 Umiejsowienie produktu
-
+   
+   2.1 Korzyści biznesowe
+   
+   2.2 Zdefiniowanie problemu
+   
+   2.3 Umiejsowienie produktu
+   
 3. Charakterystyka użytkowników
-
-3.1 Demografia rynku
-
-3.2 Użytkownicy
-
-3.3 Środowisko użytkownika
-
-3.4 Profile uzytkowników
-
-3.4.1 User Name
-
-3.5 Kluczowe wymagania
-
-3.6 Rozwiązania alternatywne
-
-3.6.1 aCompetitor
-
-3.6.2 anotherCompetitor
-
+   
+   3.1 Demografia rynku
+   
+   3.2 Użytkownicy
+   
+   3.3 Środowisko użytkownika
+   
+   3.4 Profile uzytkowników
+   
+   3.4.1 Nadawca
+   
+   3.4.2 Odbiorca
+   
+   3.5 Kluczowe wymagania
+   
+   3.6 Rozwiązania alternatywne
+   
+   3.6.1. InPost
+   
+   3.6.2. DPD
+   
+   3.6.3. PoczteX
+   
 4. Omówienie produktu
-
-4.1 Kontekst produktu
-
-4.2 Podsumowanie możliwości
-
-4.3 Założenia i zależności
-
-4.4 Koszty
-
-4.5 Licencje i instalacja
-
+   
+   4.1 Kontekst produktu
+   
+   4.2 Podsumowanie możliwości
+   
+   4.3 Założenia i zależności
+   
+   4.4 Koszty
+   
+   4.5 Licencje i instalacja
+   
 5. Funkcjonalność produktu
-
-5.1 aFeature
-
-5.2 anotherFeature
-
+   
+   5.1. Zaloguj się do systemu
+   
+   5.2. Nadanie Paczki
+   
+   5.3. Odbierz Paczkę
+   
+   5.4. Śledź Paczkę
+   
+   5.5. Zmień datę odbioru
+   
+   5.6. Złóż zażalenie
+   
+   5.7. Zmiana Statusu Paczki
+   
+   5.8. Przydziel zadania Kurierom
+   
+   5.9. Rozpatrz zażalenie
+   
 6. Ograniczenia
-
 7. Normy jakościowe
-
 8. Priorytety realizacji
-
 9. Pozostałe wymagania
-
-9.1 Standardy
-
-9.2 Wymagania systemowe
-
-9.3 Wymagania wydajnościowe
-
-9.4 Wymagania środowiskowe
-
+   
+   9.1 Standardy
+   
+   9.2 Wymagania systemowe
+   
+   9.3 Wymagania wydajnościowe
+   
+   9.4 Wymagania środowiskowe
+   
 10. Wymagana dokumentacja
-
-10.1 Podręcznik użytkownika
-
-10.2 Pomoc online
-
-10.3 Instalacja i konfiguracja
-
+    
+    10.1 Podręcznik użytkownika
+    
+    10.2 Pomoc online
+    
+    10.3 Instalacja i konfiguracja
 
 # Wizja
 ## 1. Wstęp
@@ -172,8 +186,9 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | Śledzenie przesyłki i planowanej daty dostarczenia | wysoki | | | |
 | Uproszczenie i przyspieszenie procesu nadania | średni | | | |
 ### 3.6. Rozwiązania alternatywne
-#### 3.6.1. InPost, DPD
-#### 3.6.2. PoczteX
+#### 3.6.1. InPost
+#### 3.6.2. DPD
+#### 3.6.3. PoczteX
 ## 4. Omówienie produktu
 ### 4.1. Kontekst produktu
 Niniejszy dokument wizji opisuje działanie podsystemu firmy kurierskiej. Jest on częścią większego systemu, który zajmuje się logistyką, kwestiami kadrowymi czy zarządza dostępem do baz danych pracowników i przesyłek a także zajmuje się ich ochroną. Zadaniem niniejszego podsystemu jest usprawnienie funkcjonowania firmy kurierskiej w zakresie obsługi przesyłek a także dodanie nowych funkcjonalności do świadczonych usług np. obsługa paczkomatów. W zakresie obsługi przesyłek produkt jest kompletny i możliwy do implementacji w innych miejscach z innymi bazami danych. Powstał on w odpowiedzi na nieusatysfakcjonowanie społeczne istniejącymi wcześniej systemami kurierskimi, które nie gwarantowały wystarczającej elastyczności, dopasowania się do klienta a także przewidywały wysokie opłaty i mnóstwo formalności w przypadku naruszenia terminów i formy nadania czy odbioru przesyłki. 
@@ -190,61 +205,52 @@ Projekt zakłada, że samo użycie nowatorskich rozwiązań, nieoferowanych prze
 ### 4.4. Koszty
 ### 4.5 Licencje i instalacja
 ## 5. Funkcjonalność produktu
-- System daje możliwość zakupu usługi oferowanej przez firmę (nadanie i przeslanie paczek lub paczki)
-- Ułatwia komunikacje między klientem a pracownikami firmy. 
-- System posiada takie funkcjonalnosci dla klientow firmy:
-- Nadanie Paczki - wykupienie usługi na przesłanie paczki
-- Odbiór Paczki - odebranie paczki bezposrednio od kuriera lub z paczkomatu
-- Śledzenie Paczki - mozliwosc zobaczenia ststusu paczki.
-- Funkcjonalnosci zapewniane przez system dla pracowników firmy:
+System daje możliwość zakupu usługi oferowanej przez firmę (nadanie i przeslanie paczek lub paczki).
+Ułatwia komunikacje między klientem a pracownikami firmy.
 
-Dla kurierów:
-- Obszar pracy - lista adresow + adres magazynu
-- Tryb pracy 
+*System posiada takie funkcjonalności dla klientów firmy:*
+- Nadanie Paczki – wykupienie usługi na przesłanie paczki 
+- Odbiór Paczki – odebranie paczki bezpośrednio od kuriera lub z paczkomatu 
+- Śledzenie Paczki	- możliwość zobaczenia statusu paczki. 
+
+*Funkcjonalności zapewniane przez system dla pracowników firmy:*
+
+*Dla kurierów:*
+- Obszar pracy – lista adresów + adres magazynu
+- Tryb pracy
 - Przydzielone auto
-- Mozliwosc zmiany statusu paczki
+- Możliwość zmiany statusu paczki
 
-Dla administracji:
-- Kontakt z klientami - Dział obslugi klienta
-- Przydzielanie zadań kurierom - latwiejsza i szybsza komunikacja	
-### 5.1. Nadanie Paczki
-5.1.1. Klient loguje sie do systemu
-5.1.2. Klient wypełnia formularz
-5.1.3  Klient dokonuje płatnosci
-5.1.4 Klient dostaje kod QR
-5.1.5 Paczka otrzymuje status do nadania
+*Dla administracji:*
+- Kontakt z klientami - Dział obsługi klienta 
+- Przydzielanie zadań kurierom – łatwiejsza i szybsza komunikacja
 
-### 5.2. Odbierz Paczke
-5.2.1 Odbiór z paczkomatu
-Klient wpisuje na ekranie paczkomatu kod odbioru
-Paczkomat wydaje paczke
-Paczka zmienia w systemie status na odebrana
-5.2.2 Odbiór pod podanym adresem
-Klient wybiera date i godzine
-Kurier przekazuje paczke klientowi
-Kurier zmienia status paczki na odebrana
+### 5.1. Zaloguj się do systemu
+Klient/pracownik po wpisaniu loginu i hasła loguje się do systemu. System wyświetla interfejs klienta/pracownika.
+### 5.2. Nadanie Paczki
+Klient nadaje paczkę w dogodnym dla niego paczkomacie. Lub Klient przekazuje paczkę kurierowi po wcześniejszym uzgodnieniu terminu z kurierem.
 
-### 5.3. Śledź Paczke
-5.3.1 Klient jest zalogowany
-5.3.1.1Klient wybiera “moje paczki”
-5.3.1.2 Przechodzi do “nadane” lub  “do odbioru”
-5.3.1.3 System wyswietla liste paczek
-5.3.1.4 Klient wybiera Paczke
-5.3.1.5 System wyswietla ID paczki i status
-5.3.2 Klient nie jest zalogowany
-Klient wpisuje ID paczki
- Klient przechodzi do “śledź paczke”
-System wyswietla ID paczki i status
+### 5.3. Odbierz Paczkę
+Klient odbiera paczkę w podanym wcześniej przez niego paczkomacie.
+Lub Klient odbiera paczkę od kuriera po wcześniejszym uzgodnieniu terminu z kurierem.
 
-### 5.4. Zmień datę odbioru
-Klient wpisuje ID paczki
-Klient klika  “zmien date odbioru”
-Jesli status paczki: w magazynie
-To klient wpisuje date odbioru
-W innym wypadku System wyswietla brak mozliwosci zmiany terminu
-Operacja konczy sie porazka
+### 5.4. Śledź Paczkę
+Klient posługując się numerem ID paczki sprawdza jej status.
 
-### 5.5. Zaloguj sie
+### 5.5. Zmień datę odbioru
+Jeśli paczka klienta ma status w paczkomacie -> do magazynu lub w magazynie klient ma możliwość skontaktowania się z kurierem i wybrania innego terminu odbioru paczki z listy.
+
+### 5.6. Złóż zażalenie
+Klient wypełnia formularz reklamacji. Formularz zostaje wysłany do pracownika administracji.
+
+### 5.7. Zmiana Statusu Paczki
+Kurier  skanuje kod paczki, informacja ta jest przesyłana do systemu. System wyświetla domyślna zmianę statusu paczki. Kurier zatwierdza status lub wybiera inny status paczki z listy. 
+
+### 5.8. Przydziel zadania Kurierom
+Pracownik administracji przydziela konkretnemu kurierowi obszar pracy, auto i tryb pracy.
+
+### 5.9. Rozpatrz zażalenie
+Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacza statusem “rozpatrzony”. Postępuje zależnie od decyzji zgodnie z polityka firmy.
 
 ## 6. Ograniczenia 
 6.1 	Logowanie
