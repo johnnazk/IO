@@ -2,47 +2,47 @@
 # Wizja
 
 ## Spis treści
-1.	Wstęp
-1.1	Cel dokumentu
-1.2	Zakres
-1.3	Definicje, akronimy i skróty
-1.4	Referencje
-1.5	Omówienie dokumentu
-2.	Umiejscowienie problemu
-2.1	Korzyści biznesowe
-2.2	Zdefiniowanie problemu
-2.3	Umiejsowienie produktu
-3.	Charakterystyka użytkowników
-3.1	Demografia rynku
-3.2	Użytkownicy
-3.3	Środowisko użytkownika
-3.4	Profile uzytkowników
-3.4.1	User Name
-3.5	Kluczowe wymagania
-3.6	Rozwiązania alternatywne
-3.6.1	aCompetitor
-3.6.2	anotherCompetitor
-4.	Omówienie produktu
-4.1	Kontekst produktu
-4.2	Podsumowanie możliwości
-4.3	Założenia i zależności
-4.4	Koszty
-4.5	Licencje i instalacja
-5.	Funkcjonalność produktu
-5.1	aFeature
-5.2	anotherFeature
-6.	Ograniczenia
-7.	Normy jakościowe
-8.	Priorytety realizacji
-9.	Pozostałe wymagania
-9.1	Standardy
-9.2	Wymagania systemowe
-9.3	Wymagania wydajnościowe
-9.4	Wymagania środowiskowe
-10.	Wymagana dokumentacja
-10.1	Podręcznik użytkownika
-10.2	Pomoc online
-10.3	Instalacja i konfiguracja
+1. Wstęp
+1.1 Cel dokumentu
+1.2 Zakres
+1.3 Definicje, akronimy i skróty
+1.4 Referencje
+1.5 Omówienie dokumentu
+2. Umiejscowienie problemu
+2.1 Korzyści biznesowe
+2.2 Zdefiniowanie problemu
+2.3 Umiejsowienie produktu
+3. Charakterystyka użytkowników
+3.1 Demografia rynku
+3.2 Użytkownicy
+3.3 Środowisko użytkownika
+3.4 Profile uzytkowników
+3.4.1 User Name
+3.5 Kluczowe wymagania
+3.6 Rozwiązania alternatywne
+3.6.1 aCompetitor
+3.6.2 anotherCompetitor
+4. Omówienie produktu
+4.1 Kontekst produktu
+4.2 Podsumowanie możliwości
+4.3 Założenia i zależności
+4.4 Koszty
+4.5 Licencje i instalacja
+5. Funkcjonalność produktu
+5.1 aFeature
+5.2 anotherFeature
+6. Ograniczenia
+7. Normy jakościowe
+8. Priorytety realizacji
+9. Pozostałe wymagania
+9.1 Standardy
+9.2 Wymagania systemowe
+9.3 Wymagania wydajnościowe
+9.4 Wymagania środowiskowe
+10. Wymagana dokumentacja
+10.1 Podręcznik użytkownika
+10.2 Pomoc online
+10.3 Instalacja i konfiguracja
 
 # Wizja
 ## 1. Wstęp
