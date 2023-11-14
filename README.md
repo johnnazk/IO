@@ -254,7 +254,7 @@ Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacz
 
 ## 6. Ograniczenia 
 1. 	Logowanie
-a) Hasło musi byc ciagiem znakow o dlugosci przynajmniej 8
+   - Hasło musi byc ciagiem znakow o dlugosci przynajmniej 8
 b) Login musi byc unikalnym ciagiem znaków
 2 	Formularz
 a) Imie I Nazwisko nadawcy
