@@ -253,19 +253,19 @@ Pracownik administracji przydziela konkretnemu kurierowi obszar pracy, auto i tr
 Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacza statusem “rozpatrzony”. Pracownik rozpatruje wnioski zgodnie z polityka firmy.
 
 ## 6. Ograniczenia 
-6.1 	Logowanie
-  6.1.1 Hasło musi byc ciagiem znakow o dlugosci przynajmniej 8
-  6.1.2 Login musi byc unikalnym ciagiem znaków
-6.2 	Formularz
-  6.2.1 Imie I Nazwisko nadawcy
-  6.2.2 Dane kontaktowe odbiorcy (mail lub telefon)
-  6.2.3 Adres
-  6.2.4 dane kontaktowe odbiorcy (mail lub telefon)
-   6.2a Dla firm API
-  6.2.6 Sposob nadania (kurier, paczkomat)
-  6.2.7 Sposob odebrania (kurier, paczkomat)
-  6.2.8 Wystawienie faktury (opcjonalne)
-6.3 	Płatność
+1. 	Logowanie
+a) Hasło musi byc ciagiem znakow o dlugosci przynajmniej 8
+b) Login musi byc unikalnym ciagiem znaków
+2 	Formularz
+a) Imie I Nazwisko nadawcy
+b) Dane kontaktowe odbiorcy (mail lub telefon)
+c) Adres
+d) dane kontaktowe odbiorcy (mail lub telefon)
+   2*. Dla firm API
+e) Sposob nadania (kurier, paczkomat)
+f) Sposob odebrania (kurier, paczkomat)
+g) Wystawienie faktury (opcjonalne)
+3. 	Płatność
 Płatnosc organizowana przez system platnosci elektronicznych
 
 ## 7. Normy jakościowe
