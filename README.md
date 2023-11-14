@@ -255,16 +255,16 @@ Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacz
 ## 6. Ograniczenia 
 1. 	Logowanie
    - Hasło musi byc ciagiem znakow o dlugosci przynajmniej 8
-b) Login musi byc unikalnym ciagiem znaków
-2 	Formularz
-a) Imie I Nazwisko nadawcy
-b) Dane kontaktowe odbiorcy (mail lub telefon)
-c) Adres
-d) dane kontaktowe odbiorcy (mail lub telefon)
-   2*. Dla firm API
-e) Sposob nadania (kurier, paczkomat)
-f) Sposob odebrania (kurier, paczkomat)
-g) Wystawienie faktury (opcjonalne)
+   - Login musi byc unikalnym ciagiem znaków
+2. 	Formularz
+   - Imie I Nazwisko nadawcy
+   - Dane kontaktowe odbiorcy (mail lub telefon)
+   - Adres
+   - dane kontaktowe odbiorcy (mail lub telefon)
+      2*. Dla firm API
+   - Sposob nadania (kurier, paczkomat)
+   - Sposob odebrania (kurier, paczkomat)
+   - Wystawienie faktury (opcjonalne)
 3. 	Płatność
 Płatnosc organizowana przez system platnosci elektronicznych
 
