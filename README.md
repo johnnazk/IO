@@ -250,21 +250,21 @@ Kurier  skanuje kod paczki, informacja ta jest przesyłana do systemu. System wy
 Pracownik administracji przydziela konkretnemu kurierowi obszar pracy, auto i tryb pracy.
 
 ### 5.9. Rozpatrz zażalenie
-Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacza statusem “rozpatrzony”. Postępuje zależnie od decyzji zgodnie z polityka firmy.
+Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacza statusem “rozpatrzony”. Pracownik rozpatruje wnioski zgodnie z polityka firmy.
 
 ## 6. Ograniczenia 
 6.1 	Logowanie
-6.1.1 Hasło musi byc ciagiem znakow o dlugosci przynajmniej 8
-6.1.2 Login musi byc unikalnym ciagiem znaków
+  6.1.1 Hasło musi byc ciagiem znakow o dlugosci przynajmniej 8
+  6.1.2 Login musi byc unikalnym ciagiem znaków
 6.2 	Formularz
-6.2.1 Imie I Nazwisko nadawcy
-6.2.2 Dane kontaktowe odbiorcy (mail lub telefon)
-6.2.3 Adres
-6.2.5 dane kontaktowe odbiorcy (mail lub telefon)
-6.2a Dla firm API
-6.2.6 Sposob nadania (kurier, paczkomat)
-6.2.7 Sposob odebrania (kurier, paczkomat)
-6.2.8 Wystawienie faktury (opcjonalne)
+  6.2.1 Imie I Nazwisko nadawcy
+  6.2.2 Dane kontaktowe odbiorcy (mail lub telefon)
+  6.2.3 Adres
+  6.2.4 dane kontaktowe odbiorcy (mail lub telefon)
+   6.2a Dla firm API
+  6.2.6 Sposob nadania (kurier, paczkomat)
+  6.2.7 Sposob odebrania (kurier, paczkomat)
+  6.2.8 Wystawienie faktury (opcjonalne)
 6.3 	Płatność
 Płatnosc organizowana przez system platnosci elektronicznych
 
