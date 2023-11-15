@@ -311,7 +311,7 @@ Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacz
 1. Logowanie
 	- Hasło musi byc ciagiem znakow o dlugosci przynajmniej 8
 	- Login musi byc unikalnym ciagiem znaków
-1. Formularz
+1. Formularz (Dla osob prywatnych)
 	- Imie I Nazwisko nadawcy
 	- Dane kontaktowe odbiorcy (mail lub telefon)
 	- Adres
