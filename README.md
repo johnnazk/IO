@@ -251,7 +251,10 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 *System posiada takie funkcjonalności dla klientów firmy:*
 - Nadanie Paczki – wykupienie usługi na przesłanie paczki 
 - Odbiór Paczki – odebranie paczki bezpośrednio od kuriera lub z paczkomatu 
-- Śledzenie Paczki	- możliwość zobaczenia statusu paczki. 
+- Śledzenie Paczki	- możliwość zobaczenia statusu paczki.
+- Zmiana daty odbioru paczki
+- Złożenie zażalenia
+- Kontakt z kurierem (w wypadku odbioru i doreczenia z/do innego miejsca niż paczkomat)
 
 *Funkcjonalności zapewniane przez system dla pracowników firmy:*
 
@@ -260,6 +263,7 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 - Tryb pracy
 - Przydzielone auto
 - Możliwość zmiany statusu paczki
+- Kontakt z klientem (jesli tryb pracy inny niż z/do paczkomatu)
 
 *Dla administracji:*
 - Kontakt z klientami - Dział obsługi klienta 
@@ -284,7 +288,7 @@ Klient posługując się numerem ID paczki sprawdza jej status.
 
 ### 5.5. Zmień datę odbioru
 
-Jeśli paczka klienta ma status w paczkomacie -> do magazynu lub w magazynie klient ma możliwość skontaktowania się z kurierem i wybrania innego terminu odbioru paczki z listy.
+Jeśli paczka klienta ma status w paczkomacie -> do magazynu lub w magazynie, klient ma możliwość skontaktowania się z kurierem i wybrania innego terminu odbioru paczki z listy.
 
 ### 5.6. Złóż zażalenie
 
