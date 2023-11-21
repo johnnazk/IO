@@ -245,10 +245,10 @@ Projekt zakłada, że samo użycie nowatorskich rozwiązań, nieoferowanych prze
 
 ## 5. Funkcjonalność produktu
 
-System daje możliwość zakupu usługi oferowanej przez firmę (nadanie i przeslanie paczek lub paczki).
+System Outpost daje możliwość zakupu usługi oferowanej przez firmę (nadanie i przeslanie paczek lub paczki).
 Ułatwia komunikacje między klientem a pracownikami firmy.
 
-*System posiada takie funkcjonalności dla klientów firmy:*
+*System Outpost posiada takie funkcjonalności dla klientów firmy:*
 - Nadanie Paczki – wykupienie usługi na przesłanie paczki 
 - Odbiór Paczki – odebranie paczki bezpośrednio od kuriera lub z paczkomatu 
 - Śledzenie Paczki	- możliwość zobaczenia statusu paczki.
@@ -256,7 +256,7 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 - Złożenie zażalenia
 - Kontakt z kurierem (w wypadku odbioru i doreczenia z/do innego miejsca niż paczkomat)
 
-*Funkcjonalności zapewniane przez system dla pracowników firmy:*
+*Funkcjonalności zapewniane przez system Outpost dla pracowników firmy:*
 
 *Dla kurierów:*
 - Obszar pracy – lista adresów + adres magazynu
@@ -312,14 +312,14 @@ Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacz
 	- Hasło musi byc ciagiem znakow o dlugosci przynajmniej 8
 	- Login musi byc unikalnym ciagiem znaków
 1. Formularz (Dla osob prywatnych)
-	- Imie I Nazwisko nadawcy
-	- Dane kontaktowe odbiorcy (mail lub telefon)
-	- Adres
+	- Imie I Nazwisko nadawcy (ciag znakow)
+	- Dane kontaktowe nadawcy (mail lub telefon) (ciag znakow lub 9 cyfr)
+	- Adres (miasto, ulica, nr domu, nr mieszkania(opcjonalne),kod pocztowy)
 	- dane kontaktowe odbiorcy (mail lub telefon)
 1. API Dla firm
-	- Sposob nadania (kurier, paczkomat)
-	- Sposob odebrania (kurier, paczkomat)
-	- Wystawienie faktury (opcjonalne)
+	- Sposob nadania -lista skladajaca sie z dwoch opcji(kurier,paczkomat)
+	- Sposob odebrania -lista skladajaca sie z dwoch opcji(kurier,paczkomat)
+	- Wystawienie faktury(opcjonalne) -pole do zaznaczenia
 1. Płatność
 	- Płatnosc organizowana przez system platnosci elektronicznych
 
