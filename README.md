@@ -248,7 +248,7 @@ Projekt zakłada, że samo użycie nowatorskich rozwiązań, nieoferowanych prze
 System Outpost daje możliwość zakupu usługi oferowanej przez firmę (nadanie i przeslanie paczek lub paczki).
 Ułatwia komunikacje między klientem a pracownikami firmy.
 
-*System Outpost posiada takie funkcjonalności dla klientów firmy:*
+*System Outpost posiada takie funkcjonalności dla klientów firmy Outpost:*
 - Nadanie Paczki – wykupienie usługi na przesłanie paczki 
 - Odbiór Paczki – odebranie paczki bezpośrednio od kuriera lub z paczkomatu 
 - Śledzenie Paczki	- możliwość zobaczenia statusu paczki.
@@ -256,7 +256,7 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 - Złożenie zażalenia
 - Kontakt z kurierem (w wypadku odbioru i doreczenia z/do innego miejsca niż paczkomat)
 
-*Funkcjonalności zapewniane przez system Outpost dla pracowników firmy:*
+*Funkcjonalności zapewniane przez system Outpost dla pracowników firmy Outpost:*
 
 *Dla kurierów:*
 - Obszar pracy – lista adresów + adres magazynu
@@ -304,7 +304,7 @@ Pracownik administracji przydziela konkretnemu kurierowi obszar pracy, auto i tr
 
 ### 5.9. Rozpatrz zażalenie
 
-Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacza statusem “rozpatrzony”. Pracownik rozpatruje wnioski zgodnie z polityka firmy.
+Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacza statusem “rozpatrzony”. Pracownik rozpatruje wnioski a nastepnie postepuje zgodnie z polityka firmy Outpost.
 
 ## 6. Ograniczenia 
 
