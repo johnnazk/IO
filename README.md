@@ -215,8 +215,8 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 
 | Potrzeba | Priorytet | Przyczyna | Aktualne rozwiązanie | Proponowane rozwiązanie |
 | --- | --- | --- | --- | --- |
-| Możliwość zmiany terminu oraz miejsca odbioru przesyłki | wysoki | Zmiany planów odbiory w czasie realizacji dostawy | | |
-| Śledzenie przesyłki i planowanej daty dostarczenia | wysoki | | | |
+| Możliwość zmiany terminu oraz miejsca odbioru przesyłki | wysoki | Zmiany planów odbiory w czasie realizacji dostawy | Brak | Umożliwienie bezpośredniej komunikacji klienta z kurierem|
+| Śledzenie przesyłki i planowanej daty dostarczenia | wysoki |Możliwość przewidzenia dostawy paczki | Brak, powiadomienie o dostarczeniu|Stworzenie funkcjonalności ,ktora podaje status paczki po wpisaniu jej ID |
 | Uproszczenie i przyspieszenie procesu nadania | średni | | | |
 
 ### 3.6. Rozwiązania alternatywne
