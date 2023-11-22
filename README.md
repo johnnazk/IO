@@ -192,7 +192,7 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | | |
 | --- | --- |
 | Reprezentant | Nadawca|
-| Opis | Aplikacja powinna być prosta w obsłudze, osoba może być w dowolny wieku, nie musi obsługować na co dzień aplikacji, mogą to być osoby starsze, nie musi posiadać większej wiedzy na temat procesu dostarczania paczek |
+| Opis | Aplikacja powinna być prosta w obsłudze, osoba może być w dowolnym wieku, nie musi obsługować na co dzień aplikacji, mogą to być osoby starsze, nie musi posiadać większej wiedzy na temat procesu dostarczania paczek |
 | Typ | Przypadkowy użytkownik |
 | Rola | Opłata za nadanie paczki, nadanie w aplikacji, adresowanie przesyłki, wypełnienie danych, sprawdzenie poprawności danych, dokonanie przelewu |
 | Kryteria sukcesu | Nadanie przesyłki bez większych problemów, duża dostępność paczkomatów, możliwość dojazdu kuriera, łatwe poruszanie się w aplikacji, szybkość całego procesu |
@@ -204,7 +204,7 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | | |
 | --- | --- |
 | Reprezentant | Odbiorca |
-| Opis | Aplikacja powinna być prosta w obsłudze, osoba może być w dowolny wieku, nie musi obsługować na co dzień aplikacji, mogą to być osoby starsze, nie musi posiadać większej wiedzy na temat procesu dostarczania paczek |
+| Opis | Aplikacja powinna być prosta w obsłudze, osoba może być w dowolnym wieku, nie musi obsługować na co dzień aplikacji, mogą to być osoby starsze, nie musi posiadać większej wiedzy na temat procesu dostarczania paczek |
 | Typ | Przypadkowy użytkownik |
 | Rola | Śledzenie przesyłki, otrzymywanie informacji na temat statusu przesyłki, odbiór z paczkomatu/ od kuriera |
 | Kryteria sukcesu | Brak problemów z obsługą interfejsu, dobry kontakt z kurierem, możliwość określenia dokładnego czasu przybycia przesyłki do punktu docelowego |
