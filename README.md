@@ -211,6 +211,30 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | Zaangażowanie | Śledzenie przesyłki, kontakt z kurierem, zaangażowanie minimalne |
 | Uwagi | |
 
+#### 3.4.3. Kurier
+
+| | |
+| --- | --- |
+| Reprezentant | Kurier Outpost |
+| Opis | Zatrudniony przez firmę Outpost, przewozi paczki |
+| Typ | Pracownik firmy Outpost |
+| Rola | Przewóz paczek między magazynem a paczkomatem lub adresem klienta. Kontakt z klientem w przypadku dowozu do adresu klienta w celu ustalenia dokładnego czasa dostawy. |
+| Kryteria sukcesu | Brak problemów z obsługą interfejsu, dobry kontakt z klientem, możliwość sprawnej zmiany statusu paczek. |
+| Zaangażowanie | Przewóz przesyłek, kontakt z klientem, zaangażowanie wysokie |
+| Uwagi | |
+
+#### 3.4.4. Administracja
+
+| | |
+| --- | --- |
+| Reprezentant | Pracownik Administracji Outpost |
+| Opis | Zatrudniony przez firmę Outpost, pracuje w biurze |
+| Typ | Pracownik firmy Outpost |
+| Rola | Przydział pojazdów i grafików kurierom, obsługa klientów |
+| Kryteria sukcesu | Brak problemów z obsługą interfejsu, dobry kontakt z klientem, możliwość skutecznego zarządzania kurierami. |
+| Zaangażowanie | Zarządzanie kurierami, obsługa klienta, zaangażowanie wysokie |
+| Uwagi | |
+
 ### 3.5. Kluczowe wymagania
 
 | Potrzeba | Priorytet | Przyczyna | Aktualne rozwiązanie | Proponowane rozwiązanie |
