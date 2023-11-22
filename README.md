@@ -170,17 +170,21 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 
 | Nazwa | Opis | Rola |
 | --- | --- | --- |
-| Nadawcy przesyłek	| Osoby lub firmy, które wysyłają przesyłki za pośrednictwem serwisu | Wprowadzają szczegóły przesyłek do systemu. Oczekują na potwierdzenie dostawy. Mają możliwość śledzenia przesyłki |
+| Nadawcy przesyłek | Osoby lub firmy, które wysyłają przesyłki za pośrednictwem serwisu | Wprowadzają szczegóły przesyłek do systemu. Oczekują na potwierdzenie dostawy. Mają możliwość śledzenia przesyłki |
 | Odbiorcy przesyłek | Osoby lub firmy, które odbierają przesyłki dostarczone przez kurierów. | Odbierają przesyłki. Potwierdzają dostawę. Mogą zgłaszać problemy z dostawą. Mogą w określonym zakresie zmieniać termin oraz miejsce odbioru Mają możliwość śledzenia przesyłki |
+| Kurierzy | Pracownicy firmy Outpost | Przewożą paczki między magazynem a paczkomatem lub adresem klienta. Korzystają z systemu przez aplikacje skanera paczek. |
+| Administracja | Pracownicy firmy Outpost | Przydzielają pojazdy i grafik kurierom. Rozpatrują skargi klientów. Udzielają pomocy klientom. |
 
 ### 3.3. Środowisko użytkownika
 
 Środowisko użytkownika:
 
 - Cykl między 1 a 4 dni roboczych do momentu, kiedy paczka jest gotowa do odbioru zależy od trasy przesyłki oraz ilości realizowanych przesyłek na tej trasie.
+- Nadanie paczki przez klienta: w domu/biurze na komputerze lub gdziekolwiek używając aplikacji mobilnej
+- Przy odbiorze paczki z paczkomatu przez klienta: przy paczkomacie korzystając z aplikacji mobilnej lub wyświetlając powiadomienie e-mailowe/smsowe
+- Podczas pracy kuriera: w samochodzie dostawczym na skanerze przesyłek
 - Czas nadania przesyłki nie powinien przekraczać dla przeciętnego użytkownika 3 minut podczas użycia aplikacji oraz 5 przy użyciu przeglądarki.
 - Działanie aplikacji w ograniczonym zakresie w trybie offline
-- Aktualnie działające podobne platformy Inpost, DPD, Pocztex, Orlen Paczka
 - Aplikacje do obsługi zleceń kurierskich firm przewozowych, systemy płatności internetowej w obu przypadkach aplikacja zapewnia odpowiednie API do bezproblemowego współdziałania
 
 ### 3.4. Profile uzytkowników
