@@ -110,7 +110,7 @@ Celem dokumentu wizji jest zebranie, analiza i zdefiniowanie cech a także zasad
 
 ### 1.2. Zakres
 
-Niniejszy dokument wizji opisuje działanie podsystemu firmy kurierskiej. Jest on częścią większego systemu, który zajmuje się logistyką, kwestiami kadrowymi czy zarządza dostępem do baz danych pracowników i przesyłek a także zajmuje się ich ochroną. Zadaniem niniejszego podsystemu jest usprawnienie funkcjonowania firmy kurierskiej w zakresie obsługi przesyłek a także dodanie nowych funkcjonalności do świadczonych usług np. obsługa paczkomatów. Zakresem zagadnień omawianego podsystemu jest cały proces obsługi fizycznej przesyłki, od momentu przyjęcia zlecenia na jej dostarczenie, przez proces jej transportu, po rozliczenie się z klientem z wykonania usługi.
+Niniejszy dokument wizji opisuje działanie podsystemu firmy kurierskiej. Jest on częścią większego systemu, który zajmuje się logistyką, kwestiami kadrowymi czy zarządza dostępem do baz danych pracowników i przesyłek a także zajmuje się ich ochroną. Zakresem zagadnień omawianego podsystemu jest cały proces obsługi fizycznej przesyłki, od momentu przyjęcia zlecenia na jej dostarczenie, przez proces jej transportu, po rozliczenie się z klientem z wykonania usługi. Zadaniem niniejszego podsystemu jest usprawnienie funkcjonowania firmy kurierskiej w zakresie obsługi przesyłek a także dodanie nowych funkcjonalności do świadczonych usług np. obsługa paczkomatów.
    
 ### 1.3. Definicje, akronimy i skróty
 
@@ -127,6 +127,11 @@ Niniejszy dokument wizji opisuje działanie podsystemu firmy kurierskiej. Jest o
 - Skaner - urządzenie używane przez Kuriera do używania systemu
 
 ### 1.4. Referencje
+
+Płatności internetowe w systemie Outpost są realizowane zgodnie z rekomendacjami dotyczącymi bezpieczeństwa płatności internetowych w państwach członkowskich Unii Europejskiej opracowanymi przez Europejskie Forum ds. Bezpieczeństwa Płatności Detalicznych.
+
+Europejskie Forum ds. Bezpieczeństwa Płatności Detalicznych. (2013) Rekomendacje dotyczące bezpieczeństwa płatności internetowych (Numer katalogowy UE QB-30-13-188-EN-N). https://www.knf.gov.pl/knf/pl/komponenty/img/Rekomendacje_bezpieczenstwo_platnosci_internetowych_37934.pdf
+
 
 ### 1.5. Omówienie dokumentu
 
@@ -224,7 +229,7 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 
 ### 4.1. Kontekst produktu
 
-Niniejszy dokument wizji opisuje działanie podsystemu firmy kurierskiej. Jest on częścią większego systemu, który zajmuje się logistyką, kwestiami kadrowymi czy zarządza dostępem do baz danych pracowników i przesyłek a także zajmuje się ich ochroną. Zadaniem niniejszego podsystemu jest usprawnienie funkcjonowania firmy kurierskiej w zakresie obsługi przesyłek a także dodanie nowych funkcjonalności do świadczonych usług np. obsługa paczkomatów. W zakresie obsługi przesyłek produkt jest kompletny i możliwy do implementacji w innych miejscach z innymi bazami danych. Powstał on w odpowiedzi na nieusatysfakcjonowanie społeczne istniejącymi wcześniej systemami kurierskimi, które nie gwarantowały wystarczającej elastyczności, dopasowania się do klienta a także przewidywały wysokie opłaty i mnóstwo formalności w przypadku naruszenia terminów i formy nadania czy odbioru przesyłki. 
+Niniejszy dokument wizji opisuje działanie podsystemu o nazwie Outpost firmy kurierskiej Outpost, który został opracowany przez zewnętrzną firmę informatyczną Datagility i sprzedany firmie Outpost do wyłącznego rozporządzania. Podsystem ten jest częścią większego systemu, który zajmuje się logistyką, kwestiami kadrowymi i płacowymi czy zarządza dostępem do baz danych pracowników i przesyłek a także zajmuje się ich ochroną. Zadaniem niniejszego podsystemu jest usprawnienie funkcjonowania firmy kurierskiej w zakresie obsługi przesyłek a także dodanie nowych funkcjonalności do świadczonych usług np. obsługa paczkomatów. W zakresie obsługi przesyłek produkt jest kompletny i możliwy do implementacji w innych miejscach z innymi bazami danych, jednak w założeniu powstał on wyłącznie dla firmy Outpost i dalsza jego odsprzedaż czy licencjonowanie nie jest, póki co, przewidziane . Powstał on w odpowiedzi na nieusatysfakcjonowanie społeczne istniejącymi wcześniej systemami kurierskimi, które nie gwarantowały wystarczającej elastyczności, dopasowania się do klienta a także przewidywały wysokie opłaty i mnóstwo formalności w przypadku naruszenia terminów i formy nadania czy odbioru przesyłki.
 
 ### 4.2. Podsumowanie możliwości
 
@@ -241,7 +246,19 @@ Projekt zakłada, że samo użycie nowatorskich rozwiązań, nieoferowanych prze
 
 ### 4.4. Koszty
 
+- 60000zł  	koszt wytworzenia podsystemu Outpost przez firmę Datagility. Podsystem Outpost nie jest sam w sobie systemem ERP (całym systemem służącym do planowania 		zasobów przedsiębiorstwa). Jest jedynie jednym z modułów tego systemu i jedynie w razie potrzeby wymiany informacji zachowuje z nim łączność. Dlatego też 		koszt takiego systemu jest względnie niski na tle kompletnych systemów ERP kosztujących w granicach 100000-200000zł
+- 10000zł  	instalacja systemu przez firmę zewnętrzną Datagility i jego synchronizacja z obecnym systemem ERP. Personalizacja i optymalizacja podsystemu
+- 2000zł/msc 	pakiet serwisowy wykupiony u firmy zewnętrznej Datagility. Obejmuje całodobową opiekę nad sprawnością działania podsystemu i priorytetowe usuwanie 			pojawiających się błędów a także gotowość do wykonywania dalszych zleceń z zakresu rozbudowy podsystemu o nowe funkcjonalności czy modyfikację obecnych
+- 2000zł/msc 	dodatkowy pakiet zwiększający bezpieczeństwo danych przechodzących przez system. Zawiera wzmocnioną ochronę sieci a także bardziej funkcjonalny 			menadżer haseł. W kosztach został uwzględniony wzrost wynagrodzenia dla obecnego pracownika działu cybersecurity
+- 5000zł 	przeszkolenie pracowników firmy przez zarząd firmy Outpost i pracowników firmy Datagility z użytkowania nowego podsystemu
+
 ### 4.5 Licencje i instalacja
+
+Produkt został zakupiony przez firmę Outpost, która zyskała wszelkie prawa do rozporządzania nim, w tym do wydawania licencji na jego używanie przez podmioty trzecie, jak i do całkowitej odsprzedaży produktu.
+
+Instalacja i pielęgnacja zostały zlecona firmie, która utworzyła podsystem.
+	
+Firma zakupiła licencje na bardziej użyteczny i rozbudowany menadżer haseł a także na oprogramowanie wzmacniające ochronę sieci.
 
 ## 5. Funkcjonalność produktu
 
