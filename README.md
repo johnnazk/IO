@@ -332,7 +332,7 @@ Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacz
 1. Formularz (Dla osob prywatnych)
 	- Imie I Nazwisko nadawcy (ciag znakow)
 	- Dane kontaktowe nadawcy (mail lub telefon) (ciag znakow lub 9 cyfr)
-	- Adres (miasto, ulica, nr domu, nr mieszkania(opcjonalne),kod pocztowy)
+	- Adres odbiorcy (miasto, ulica, nr domu, nr mieszkania(opcjonalne),kod pocztowy)
 	- dane kontaktowe odbiorcy (mail lub telefon)
 1. API Dla firm
 	- Sposob nadania -lista skladajaca sie z dwoch opcji(kurier,paczkomat)
