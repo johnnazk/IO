@@ -395,6 +395,7 @@ Odporność na błędy: Żaden użytkownik nie powinien móc zrobić niczego, co
 
 - HTTPS (HTTP/1.1, HTTP/2, TLS 1.2, TLS 1.3) - strona internetowa i aplikacja mobilna
 - JSON, OpenAPI - backend strony i aplikacji, API dla biznesów
+- WCAG 2 - strona internetowa i aplikacja mobilna
 - ISO 27001, ISO 9001
 - ISO 668, ISO 19160, ISO 6346
 - RFC 3339, RFC 3629
