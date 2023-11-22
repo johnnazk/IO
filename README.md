@@ -419,17 +419,18 @@ Odporność na błędy: Żaden użytkownik nie powinien móc zrobić niczego, co
 
 ### 10.1. Podręcznik użytkownika
 
-Podręcznik użytkownika powinien być podzielony na kilka sekcji:
+Podręcznik użytkownika powinien być podzielony na kilka części:
 1. Strona internetowa i aplikacja mobilna
 2. Publiczne API (w tym biznesowe)
 3. Skaner
 4. Administracja i logistyka
 
-Pierwsze dwie z tych sekcji powinne być dostępne publicznie przez internet, pozostałe są wewnętrzne i dostępne tylko dla pracowników.
+Pierwsze dwie z tych sekcji powinne być dostępne publicznie przez internet, pozostałe są wewnętrzne dla firmy kurierskiej Outpost i dostępne tylko dla pracowników.
+
 Pierwsza sekcja powinna być napisana w stylu samouczka dla użytkownika, podzielona na niezależne części dla poszczególnych czynności.
 Druga sekcja powinna być napisana w stylu podręcznika referencyjnego, opisując wszystkie szczegóły API.
-Trzecia i czwarta sekcja powinny zawierać informacje do niezbędne do używania systemu przez kurierów (3) i pozostałych pracowników (4), i powinny być napisane w obu stylach, zależnie od opasanej sytuacji.
-Nie ma potrzeby wydruku instrukcji użytkownika; będzie on dostępny przez internet.
+Trzecia i czwarta sekcja powinny zawierać informacje niezbędne do używania systemu przez kurierów (3) i pozostałych pracowników Outpost (4), i powinny być napisane w obu stylach, zależnie od opisanej sytuacji.
+Nie ma potrzeby wydruku instrukcji użytkownika; będzie on dostępny przez internet oraz na skanerach.
 
 ### 10.2. Pomoc online
 
@@ -437,4 +438,4 @@ Oprócz wyżej wymienionego podręcznika, powinna być również dostępna pomoc
 
 ### 10.3 Instalacja i konfiguracja 
 
-System będzie instalowany i konfigurowany przez naszą firmę, więc instrukcje instalacji, konfiguracji, i administracji oprogramowania będą dostępne wyłącznie wewnętrznie. Changelog będzie publikowany w dokumentacji (patrz 10.1) publicznego API bez przewidywanych zmian wstecznie niekompatybilnych.
+System będzie instalowany i konfigurowany przez firmę informatyczną na zlecenie Outpost, więc instrukcje instalacji, konfiguracji, i administracji oprogramowania będą dostępne wyłącznie wewnętrznie dla administratorów systemu w firmie informatycznej. Changelog będzie publikowany w dokumentacji (patrz 10.1) publicznego API bez przewidywanych zmian wstecznie niekompatybilnych.
