@@ -139,8 +139,10 @@ Pozostała część dokumentu w pierwszej kolejności zarysuje tło, na którym 
 
 ### 2.1. Korzyści biznesowe
 
-- Stworzenie linii komunikacji między użytkowanikami systemu, co spowoduje przyspieszenie obsługi klienta. W związku z powyższym firma będzie w stanie obsłużyć większą ilość klientów.
-- Odciążenie firm kurierskich i przewozowych na poziomie logistycznym. Lepsze i oszczędniejsze zaplanowanie trasy kuriera co skutkuje oszczędnościami na paliwie.
+- Stworzenie linii komunikacji między użytkowanikami systemu, co spowoduje przyspieszenie obsługi klienta oraz zoptymalizowanie tras kuriera przy nadaniu lub odbiorze paczki. W związku z powyższym przeciętny kurier bedzie w stanie średnio zwiększyć ilość rozworzonych/odbieranych paczek między 2 a 3 więcej dziennie.
+- Odciążenie firm kurierskich i przewozowych na poziomie logistycznym. Lepsze i oszczędniejsze zaplanowanie trasy kuriera co skutkuje oszczędnościami na paliwie, amortyzacji pojazdów oraz skróceniem czasu dostawy – 3% szacowane obniżenie kosztów dostawy 
+- Usprawnienie oraz skrócenie procesu nadania oraz możliwość zmiany daty I miejsca dostawy znacząco poprawi doświadzenie urzytkownika podczas korzystania z aplikacji co w perspektywie już kilku miesięcy będzie pomagać w zdominowaniu rynku w demografii urzytkowników aplikacji. Zwiększenie liczby klientów zależy od intesywności kampani marketingowych I promocyjnych firmy w danym okresie ale podczas przeprowadzonych testów 90% urzytkowników po 3 nadaniu/odbiorze paczki ocenia swoje doświadczenie zauważalnie lepiej niż podczas przechodzenia tego samego procesu na innych serwisach.
+
 
 ### 2.2. Zdefiniowanie problemu
 
@@ -247,10 +249,13 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 ### 3.6. Rozwiązania alternatywne
 
 #### 3.6.1. InPost
+Aktualnie najepsze rozwiązanie. Używa aplikacji z możliwością nadawania oraz śledzenia przesyłek. Przetestowane oraz zaufane rozwiązanie do którego klienci są przyzwyczjeni. Brak możliwości dostarczenia pod wsakazny adres. Brak możliwości zmiany daty albo paczkomatu do którego zostanie dostarczona przesyłka. 
 
 #### 3.6.2. DPD
+Możliwość śledzenia nadania przesyłki z poziomu przeglądraki albo aplikacji. Możliwość dostarczenia pod wskazany adres albo do paczkomatuj. Brak możliwości zmiany daty albo adresu dostarczenia paczki. Komunikacja z kurierem tylko przez numer tleefonu (nie zawsze jest zapewniona).
 
 #### 3.6.3. PoczteX
+Brak aplikacji w użyciu. Konieczność nadania w punkcie pocztowym albo z poziomu strony internetowej. Obsługa kurierska oraz również wysyłka do paczkomatów. Słaba komunikacja z kurierem. Brak możliwości zmiany daty albo paczkomatu do którego zostanie dostarczona przesyłka. 
 
 ## 4. Omówienie produktu
 
