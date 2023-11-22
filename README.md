@@ -465,4 +465,4 @@ Oprócz wyżej wymienionego podręcznika, powinna być również dostępna pomoc
 
 ### 10.3 Instalacja i konfiguracja 
 
-System będzie instalowany i konfigurowany przez firmę informatyczną na zlecenie Outpost, więc instrukcje instalacji, konfiguracji, i administracji oprogramowania będą dostępne wyłącznie wewnętrznie dla administratorów systemu w firmie informatycznej. Changelog będzie publikowany w dokumentacji (patrz 10.1) publicznego API bez przewidywanych zmian wstecznie niekompatybilnych.
+System będzie instalowany i konfigurowany przez Datagility na zlecenie Outpost, więc instrukcje instalacji, konfiguracji, i administracji oprogramowania będą dostępne wyłącznie wewnętrznie dla administratorów systemu w firmie Datagility. Changelog będzie publikowany w dokumentacji (patrz 10.1) publicznego API bez przewidywanych zmian wstecznie niekompatybilnych.
