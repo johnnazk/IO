@@ -241,8 +241,8 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | --- | --- | --- | --- | --- |
 | Obsługa paczkomatów | wysoki | Chęć rozszerzenia oferty firmy Outpost | Brak | System Outpost, który w dodatku do tradycyjnych usług kurierskich również obsługuje paczkomaty |
 | Uproszczenie i przyspieszenie procesu nadania | średni | Istniejący system firmy Outpost jest skomplikowany i nie jest w stanie być używany przez wszystkich klientów | Istniejący system obsługiwany przez administracje, częściowo działający na papierze | Łatwa w użyciu strona internetowa i aplikacja mobilna |
-| Możliwość zmiany terminu oraz miejsca odbioru przesyłki | wysoki | Zmiany planów odbiory w czasie realizacji dostawy | Brak | Umożliwienie bezpośredniej komunikacji klienta z kurierem|
-| Śledzenie przesyłki i planowanej daty dostarczenia | wysoki |Możliwość przewidzenia dostawy paczki | Brak, powiadomienie o dostarczeniu|Stworzenie funkcjonalności ,ktora podaje status paczki po wpisaniu jej ID |
+| Możliwość zmiany terminu oraz miejsca odbioru przesyłki | wysoki | Zmiany planów odbioru w czasie realizacji dostawy | Brak | Umożliwienie bezpośredniej komunikacji klienta z kurierem|
+| Śledzenie przesyłki i planowanej daty dostarczenia | wysoki |Możliwość przewidzenia dostawy paczki | Powiadomienie o dostarczeniu paczki|Stworzenie funkcjonalności, która podaje status paczki po wpisaniu jej ID |
 
 ### 3.6. Rozwiązania alternatywne
 
