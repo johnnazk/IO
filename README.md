@@ -235,8 +235,9 @@ Niniejszy dokument wizji opisuje działanie podsystemu o nazwie Outpost firmy ku
 
 | Korzyści konsumenckie | Cechy produktu |
 | --- | --- |
-| Klient nie ponosi kar w przypadku wystąpienia sytuacji losowych, których nie mógł przewidzieć | Możliwość jednorazowej bezpłatnej zmiany adresu doręczenia przesyłki i/lub formy doręczenia (kurier/paczkomat) najpóźniej dnia poprzedzającego planowany termin doręczenia |
-| Ograniczenie sformalizowanych i długotrwałych procesów zwrotów nieodebranych przesyłek | Możliwość odbioru przesyłek w magazynie przesyłkowym po przekroczeniu czasu odbioru |
+| Klient nie musi czuć się zmuszony do przebywania w zadeklarowanym z dużym wyprzedzeniem miejscu na czas odbioru przesyłki | Możliwość jednorazowej bezpłatnej zmiany adresu doręczenia przesyłki i/lub formy doręczenia (kurier/paczkomat) najpóźniej dnia poprzedzającego planowany termin doręczenia |
+| Ograniczenie sformalizowanych i długotrwałych procesów zwrotów nieodebranych przesyłek | Możliwość odbioru przesyłek w magazynie przesyłkowym po przekroczeniu czasu odbioru przez 4 dni bez dodatkowych opłat|
+| Klient nie ponosi kar w przypadku wystąpienia sytuacji losowych, których nie mógł przewidzieć | Jeśli paczka klienta ma status w paczkomacie -> do magazynu lub w magazynie, klient ma możliwość skontaktowania się z kurierem i wybrania innego terminu odbioru paczki z listy |
 | Klient jest w stanie współplanować odbiór/nadanie przesyłki z innymi ważnymi dla niego aktywnościami w podobnym czasie | Możliwość doprecyzowania godziny przyjazdu kuriera z dokładnością +-1godzina |
 
 ### 4.3. Założenia i zależności
