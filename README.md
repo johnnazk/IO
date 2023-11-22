@@ -144,7 +144,7 @@ Pozostała część dokumentu w pierwszej kolejności zarysuje tło, na którym 
 
 ### 2.2. Zdefiniowanie problemu
 
-- Problem: Zapotrzebowanie na niezawodne oprogramowanie obsługujące nadawanie, śledzenie oraz odbiór przesyłek 
+- Problem: Zapotrzebowanie na system obsługujący nadawanie, śledzenie,odbiór przesyłek oraz obsługę paczkomatów.
 - Dotyczy: Firmy kurierskiej Outpost
 - Którego skutkiem jest: Niski poziom usług kurierskich - problemy ze śledzeniem przesyłek, brak elastyczności terminu oraz miejsca odbioru, 
 - Satysfakcjonujacym rozwiązaniem było by: Stworzenie oprogramowania obsługującego nadanie, odbiór paczki z przejrzystym interfejsem
