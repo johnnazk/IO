@@ -241,7 +241,8 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | --- | --- | --- | --- | --- |
 | Możliwość zmiany terminu oraz miejsca odbioru przesyłki | wysoki | Zmiany planów odbiory w czasie realizacji dostawy | | |
 | Śledzenie przesyłki i planowanej daty dostarczenia | wysoki | | | |
-| Uproszczenie i przyspieszenie procesu nadania | średni | | | |
+| Obsługa paczkomatów | wysoki | Chęć rozszerzenia oferty firmy Outpost | Brak | System Outpost, który w dodatku do tradycyjnych usług kurierskich również obsługuje paczkomaty |
+| Uproszczenie i przyspieszenie procesu nadania | średni | Istniejący system firmy Outpost jest skomplikowany i nie jest w stanie być używany przez wszystkich klientów | Istniejący system obsługiwany przez administracje, częściowo działający na papierze | Łatwa w użyciu strona internetowa i aplikacja mobilna |
 
 ### 3.6. Rozwiązania alternatywne
 
