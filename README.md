@@ -119,8 +119,6 @@ Niniejszy dokument wizji opisuje działanie podsystemu firmy kurierskiej. Jest o
 - Klient Nadawca – Klient nadający paczkę przez usługę
 - Klient Odbiorca – Klient odbierający przesyłkę z paczkomatu
 - Kurier – pracownik, dostawca paczek do domu klienta lub paczkomatu
-- Kurier odbiorca – Kurier, który odbiera przesyłki i je zawozi do magazynu
-- Kurier dostawca - Kurier, który zawozi przesyłki z magazynu
 - Kurier paczkomatowy - Kurier, który dostarcza lub odbiera paczki z/do paczkomatu
 - Kurier domowy - Kurier, który dostarcza lub odbiera paczki z/do nie-paczkomatu
 - Administracja – pracownik obsugłujący kurierów lub logistykę
@@ -141,24 +139,24 @@ Pozostała część dokumentu w pierwszej kolejności zarysuje tło, na którym 
 
 ### 2.1. Korzyści biznesowe
 
-- Stworzenie linii komunikacji między użytkowanikami systemu
-- Odciążenie firm kurierskich i przewozowych na poziomie logistycznym
+- Stworzenie linii komunikacji między użytkowanikami systemu, co spowoduje przyspieszenie obsługi klienta. W związku z powyższym firma będzie w stanie obsłużyć większą ilość klientów.
+- Odciążenie firm kurierskich i przewozowych na poziomie logistycznym. Lepsze i oszczędniejsze zaplanowanie trasy kuriera co skutkuje oszczędnościami na paliwie.
 
 ### 2.2. Zdefiniowanie problemu
 
 - Problem: Zapotrzebowanie na niezawodne oprogramowanie obsługujące nadawanie, śledzenie oraz odbiór przesyłek 
-- Dotyczy: Firmy kurierskie, przewozowe oraz spółki obsługujące sieci paczkomatów, nadawcy oraz odbiorcy przesyłek
+- Dotyczy: Firmy kurierskiej Outpost
 - Którego skutkiem jest: Niski poziom usług kurierskich - problemy ze śledzeniem przesyłek, brak elastyczności terminu oraz miejsca odbioru, 
 - Satysfakcjonujacym rozwiązaniem było by: Stworzenie oprogramowania obsługującego nadanie, odbiór paczki z przejrzystym interfejsem
 
 ### 2.3. Umiejsowienie produktu
 
-- Dla: Firmy obsługujące serwisy kurierskie
-- Którzy: Potrzebują oprogramowania do nadawania oraz obioru przesyłek
-- (nazwa produktu): Aplikacja do obsługi przesyłek
-- Który: Jest niezawodny, ma niskie koszty operowania i utrzymania, zapewnia większą elastyczność od podobnych serwisów, jest posty do rozszerzenia o funkcje w zależności od potrzeb konkretnego klienta
+- Dla: Firmy Outpost obsługującej serwisy kurierskie
+- Która: Potrzebuje oprogramowania do nadawania oraz obioru przesyłek
+- (System Outpost): Aplikacja do obsługi przesyłek
+- Który: Jest niezawodny, ma niskie koszty operowania i utrzymania, zapewnia większą elastyczność od podobnych serwisów, jest prosty do rozszerzenia o funkcje w zależności od przyszłych potrzeb firmy Outpost.
 - W przeciwienstwie do: Inpost, dpd, pocztex
-- Nasz produkt: Pozwala na zmianę terminu oraz miejsca odbioru przesyłek z minimalnym kosztem ze strony firmy zapewniającej usługę przewozową
+- Nasz produkt: Pozwala klientom firmy Outpost na zmianę terminu oraz miejsca odbioru przesyłek z minimalnym kosztem ze strony firmy.
 
 ## 3. Charakterystyka użytkowników
 
