@@ -320,20 +320,22 @@ Klient/pracownik po wpisaniu loginu i hasła loguje się do systemu. System wyś
 
 ### 5.2. Nadanie Paczki
 
-Klient nadaje paczkę w dogodnym dla niego paczkomacie. Lub Klient przekazuje paczkę kurierowi po wcześniejszym uzgodnieniu terminu z kurierem.
+Klient wykupuje usługe nadania paczki w dogodnym dla niego paczkomacie lub przekazuje paczkę kurierowi po wcześniejszym uzgodnieniu terminu z kurierem.
+System przydziela wykupionej paczce nr ID i ustawia domyślny status do nadania.
 
 ### 5.3. Odbierz Paczkę
 
 Klient odbiera paczkę w podanym wcześniej przez niego paczkomacie.
-Lub Klient odbiera paczkę od kuriera po wcześniejszym uzgodnieniu terminu z kurierem.
+Lub klient odbiera paczkę od kuriera po wcześniejszym uzgodnieniu terminu z kurierem.
+System usuwa nr ID paczki. 
 
 ### 5.4. Śledź Paczkę
 
-Klient posługując się numerem ID paczki sprawdza jej status.
+Klient posługując się numerem ID paczki sprawdza jej status. System wyswietla status paczki o podanym ID.
 
 ### 5.5. Zmień datę odbioru
 
-Jeśli paczka klienta ma status w paczkomacie -> do magazynu lub w magazynie, klient ma możliwość skontaktowania się z kurierem i wybrania innego terminu odbioru paczki z listy.
+Jeśli paczka klienta ma status w paczkomacie -> do magazynu lub w magazynie, klient ma możliwość skontaktowania się z kurierem i wybrania innego terminu odbioru paczki z listy. System zmienia przewidywany termin odbioru paczki i wysyla ta informacje do kuriera.
 
 ### 5.6. Złóż zażalenie
 
