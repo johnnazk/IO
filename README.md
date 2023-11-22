@@ -246,11 +246,11 @@ Projekt zakłada, że samo użycie nowatorskich rozwiązań, nieoferowanych prze
 
 ### 4.4. Koszty
 
-- 60000zł  	koszt wytworzenia podsystemu Outpost przez firmę Datagility. Podsystem Outpost nie jest sam w sobie systemem ERP (całym systemem służącym do planowania 		zasobów przedsiębiorstwa). Jest jedynie jednym z modułów tego systemu i jedynie w razie potrzeby wymiany informacji zachowuje z nim łączność. Dlatego też 		koszt takiego systemu jest względnie niski na tle kompletnych systemów ERP kosztujących w granicach 100000-200000zł
-- 10000zł  	instalacja systemu przez firmę zewnętrzną Datagility i jego synchronizacja z obecnym systemem ERP. Personalizacja i optymalizacja podsystemu
-- 2000zł/msc 	pakiet serwisowy wykupiony u firmy zewnętrznej Datagility. Obejmuje całodobową opiekę nad sprawnością działania podsystemu i priorytetowe usuwanie 			pojawiających się błędów a także gotowość do wykonywania dalszych zleceń z zakresu rozbudowy podsystemu o nowe funkcjonalności czy modyfikację obecnych
-- 2000zł/msc 	dodatkowy pakiet zwiększający bezpieczeństwo danych przechodzących przez system. Zawiera wzmocnioną ochronę sieci a także bardziej funkcjonalny 			menadżer haseł. W kosztach został uwzględniony wzrost wynagrodzenia dla obecnego pracownika działu cybersecurity
-- 5000zł 	przeszkolenie pracowników firmy przez zarząd firmy Outpost i pracowników firmy Datagility z użytkowania nowego podsystemu
+- 60000zł - koszt wytworzenia podsystemu Outpost przez firmę Datagility. Podsystem Outpost nie jest sam w sobie systemem ERP (całym systemem służącym do planowania 		zasobów przedsiębiorstwa). Jest jedynie jednym z modułów tego systemu i jedynie w razie potrzeby wymiany informacji zachowuje z nim łączność. Dlatego też 		koszt takiego systemu jest względnie niski na tle kompletnych systemów ERP kosztujących w granicach 100000-200000zł
+- 10000zł - instalacja systemu przez firmę zewnętrzną Datagility i jego synchronizacja z obecnym systemem ERP. Personalizacja i optymalizacja podsystemu
+- 2000zł/msc - pakiet serwisowy wykupiony u firmy zewnętrznej Datagility. Obejmuje całodobową opiekę nad sprawnością działania podsystemu i priorytetowe usuwanie 			pojawiających się błędów a także gotowość do wykonywania dalszych zleceń z zakresu rozbudowy podsystemu o nowe funkcjonalności czy modyfikację obecnych
+- 2000zł/msc - dodatkowy pakiet zwiększający bezpieczeństwo danych przechodzących przez system. Zawiera wzmocnioną ochronę sieci a także bardziej funkcjonalny 			menadżer haseł. W kosztach został uwzględniony wzrost wynagrodzenia dla obecnego pracownika działu cybersecurity
+- 5000zł - przeszkolenie pracowników firmy przez zarząd firmy Outpost i pracowników firmy Datagility z użytkowania nowego podsystemu
 
 ### 4.5 Licencje i instalacja
 
