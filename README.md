@@ -370,8 +370,6 @@ Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacz
 
 ## 7. Normy jakościowe
 
-Wydajność i funkcjonalność: patrz sekcja 9.3
-
 Odporność na błędy: Żaden użytkownik nie powinien móc zrobić niczego, co ma wpływ na funkcjonalność serwisu dla innych użytkowników.
 
 ## 8. Priorytety realizacji
